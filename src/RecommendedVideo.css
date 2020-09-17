@@ -1,0 +1,17 @@
+.recommendedVideo {
+  border: 1px solid black;
+  flex: 0.8;
+  background-color: #f9f9f9;
+  padding-bottom: 0;
+}
+
+.recommendedVideo > h2 {
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+/* 각 비디오들을 가로/세로로 적절히 배열해 나가는 코드 */
+.recommendedVideo__videos {
+  display: flex;
+  flex-wrap: wrap;
+}
